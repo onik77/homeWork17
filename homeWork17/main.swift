@@ -75,6 +75,12 @@ for i in printArray {
     print(i)
 }
 
+let arr:[Any] = [3,3.3,3.33,"Mi Qani Hogi"]
+
+for i in 0..<arr.count{
+    print(arr[i])
+}
+
 //3. Int-ի համար գրել Extension
 //- plus(r: Int)
 //- minus(r: Int)
@@ -92,20 +98,20 @@ int.minus(r: -70)
 
 /// second version
 
-extension Int {
-    func plus(r:Int) {
-        for _ in 0..<self {
-            print(self + r)
-        }
-    }
-    func minus(r:Int) {
-        for _ in 0..<self {
-            print(self - r)
-        }
-    }
-}
-int.plus(r: 7)
-int.minus(r: 7)
+//extension Int {
+//    func plus(r:Int) {
+//        for _ in 0..<self {
+//            print(self + r)
+//        }
+//    }
+//    func minus(r:Int) {
+//        for _ in 0..<self {
+//            print(self - r)
+//        }
+//    }
+//}
+//int.plus(r: 7)
+//int.minus(r: 7)
 
 
 //4. Double համար գրել Extension
@@ -122,3 +128,8 @@ extension Double {
 }
 double.plus(r: 3.33)
 double.minus(r: 6.66)
+
+
+
+
+

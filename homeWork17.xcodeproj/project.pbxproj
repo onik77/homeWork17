@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D88056F928794394009CF292 /* homeWork17 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = homeWork17; sourceTree = "<group>"; };
 		D8BD472D28788EDB006342BE /* homeWork17 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homeWork17; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BD473028788EDB006342BE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				D8BD472F28788EDB006342BE /* homeWork17 */,
+				D88056F928794394009CF292 /* homeWork17 */,
 				D8BD472E28788EDB006342BE /* Products */,
 			);
 			sourceTree = "<group>";
