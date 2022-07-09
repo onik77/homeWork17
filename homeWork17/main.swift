@@ -65,7 +65,7 @@ for per in personDate {
 //2. Ստեղծել մասիվ Any որը պետք է պարունակի swift -ի բազային տիպերով ստեղծված արժեքներ Int, Double, Float, String
 // ցիկլով տպել այդ արժեքները։
 
-let `int`: Int = 7
+var `int`: Int = 7
 let `double`: Double = 7.7
 let `float`: Float = 77.77
 let `string`: String = "Hello World!"
@@ -86,11 +86,11 @@ for i in 0..<arr.count{
 //- minus(r: Int)
 
 extension Int {
-    func plus(r:Int) {
-        print(self + r)
+   mutating func plus(r:Int) {
+        self = self + r
     }
-    func minus(r:Int) {
-        print(self - r)
+   mutating func minus(r:Int) {
+       self = self - r
     }
 }
 int.plus(r: 70)
